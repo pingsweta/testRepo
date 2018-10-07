@@ -19,7 +19,7 @@ import cucumber.api.junit.Cucumber;
 		glue={"com\\trimble\\TestTags"},
 		plugin={"pretty",
 				"html:target/cucumber-htmlreport",
-				"json:target/cucumber-report6.json",
+				"json:target/cucumber-report66565.json",
 				"com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport1.html"
 		}
 	)

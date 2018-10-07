@@ -13,7 +13,7 @@ import cucumber.api.junit.Cucumber;
 		glue = {"com\\trimble\\MultipleData"},
 				plugin={"pretty",
 						"html:target/cucumber-htmlreport",
-						"json:target/cucumber-report61.json",
+						"json:target/cucumber-report61333.json",
 						"com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport1.html"
 				}
 		

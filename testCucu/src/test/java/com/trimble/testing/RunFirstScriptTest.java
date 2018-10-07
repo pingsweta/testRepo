@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		plugin={"pretty",
 				"html:target/cucumber-htmlreport",
-				"json:target/cucumber-report69.json",
+				"json:target/cucumber-report6449.json",
 				"com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport1.html"
 		})
 
