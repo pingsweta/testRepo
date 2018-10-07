@@ -10,7 +10,12 @@ import cucumber.api.junit.Cucumber;
 		
 		features = {"src\\test\\resources\\com\\trimble\\FeatureFiles\\ModifyPost.feature"},
 		
-		glue = {"com\\trimble\\ModifyPost"}
+		glue = {"com\\trimble\\ModifyPost"},
+				plugin={"pretty",
+						"html:target/cucumber-htmlreport",
+						"json:target/cucumber-report6.json",
+						"com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport1.html"
+				}
 		
 		)
 

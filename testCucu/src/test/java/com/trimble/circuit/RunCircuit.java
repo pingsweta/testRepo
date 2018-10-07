@@ -6,8 +6,15 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions()
+@CucumberOptions(
+		
+		plugin={"pretty",
+		"html:target/cucumber-htmlreport",
+		"json:target/cucumber-report6.json",
+		"com.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport1.html"
+})
 
 public class RunCircuit {
+	
 
 }
